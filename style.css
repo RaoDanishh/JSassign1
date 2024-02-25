@@ -1,17 +1,185 @@
-.button{
-  gap: 30px;
-  margin: 30px;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-button{
-    margin: 10px;
-    padding: 20px;
+
+/* nav srtart */
+
+.navbar-cnt{
+    background-color: #003b95;
+}
+
+#navbarNav{
+    flex-direction: row-reverse;
+}
+
+
+@media (max-width:991px){
+
+    #single-btn{
+        margin-top: 10px;
+    }
+    .nav-link{
+        text-align: center;
+    }
+}
+
+
+
+@media (max-width:600px){
+    #single-btn{
+        margin-top: 10px;
+    }
+    .nav-link{
+        text-align: center;
+    }
+    .col-md-6{
+        margin-top: 10px;
+    }
+    .col-md-4{
+        margin-top: 10px;
+    }
+}
+
+.col-md-6 > div:hover{
+    border: 1px solid yellow;
+}
+
+.col-md-4 > div:hover{
+    border: 1px solid yellow;
+}
+
+
+.nav-link{
+    color: white;
+}
+
+.nav-item:hover{
+    background-color: aliceblue;
+    border-radius: 10%;
+}
+
+/* chips start */
+
+.chips-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.chips-content:hover{
+    background-color: blue;
+}
+
+
+/* text center */
+
+.head-content{
+    margin-top: 80px;
+}
+
+.head-content > h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+}
+
+.head-content > p{
+    font-size: xx-large;
+    color: white;
+    margin-top: 2px;
+}
+
+/* opotion section */
+
+.opt-m{
+    position:relative;
+    bottom: -20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.opt{
+    background-color:rgb(230, 121, 26);
+    border: 5px solid rgb(230, 121, 26);
     border-radius: 10px;
 }
 
-button:hover{
-    background-color: brown;
-    color: white;
-    transition: ease;
-    transition-duration: 0.3s;
+.opt-cnt{
+    padding: 12px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid rgb(230, 121, 26);;
+}
+
+.opt-btn{
+    border: 1px solid rgb(230, 121, 26);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+/* main section */
+
+
+main{
+    margin-top: 100px;
+}
+
+/* text section */
+
+.offer-1{
+    margin-top: 100px;
+}
+
+.img{
+    height: 120px;
+    width: 120px;
+}
+
+
+.text-div{
+    background-image: url(https://q-xx.bstatic.com/xdata/images/xphoto/714x300/293799350.jpeg?k=8a6f4e24c37096fbdcd3c3d30c9f3dcea15ce35751448466decf791918012a64&o=);
+    background-size: cover;
+}
+
+
+.Lahore{
+    background-image: url(https://www.shutterstock.com/image-photo/lahore-pakistan-june-7-2020-600nw-1750861910.jpg);
+    background-size: cover;
+    height: 300px;
+    border-radius: 10px;
+}
+
+
+.Dubai{
+    background-image: url(https://cf.bstatic.com/xdata/images/city/540x270/977220.jpg?k=ee4b7b42c35b8cbf09c8ddb7630092b40cd706fec153c41904ed6e252a883938&o=);
+    background-size: cover;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.islamabad{
+    background-image: url(https://cf.bstatic.com/xdata/images/city/354x266/724981.jpg?k=d2a74ca55c128d783c4a6836713abe2ef7874ba2cc276b9f671df017ff24da19&o=);
+    background-size: cover;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.mecca{
+    background-image: url(https://cf.bstatic.com/xdata/images/city/354x266/688591.jpg?k=9a550fedccb750cfa3f2e8eaf507287d4007f21def68e6566cc00b200946e876&o=);
+    background-size: cover;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.ku{
+    background-image: url(https://cf.bstatic.com/xdata/images/city/354x266/640442.jpg?k=90687d20998ee01829027c5e6396a0b8c6d9198bb76bd5ffc7c49c5b779e18ae&o=);
+    background-size: cover;
+    height: 300px;
+    border-radius: 10px;
 }
